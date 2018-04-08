@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <meta charset=utf-8>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+<header>
+    <% include ../partials/header %>
+</header>
+
+<div class="container">
+    <div class="row">
+        <div class="col-sm-3"></div>
+        <div class="col-sm-9">
+      
+    <h1>Now Playing at a Theather Near You</h1>
+    <br>
+    <br>
+    <h1><%=data.results[0].title%> </h1> 
+    <h3><%=data.results[0].overview%> </h3>
+    <h3>Rating: <%=data.results[0].vote_average%> out of 10 stars</h3>
+    <br>
+    <img src='https://image.tmdb.org/t/p/w300<%=data.results[0].poster_path%>'>
+    <br>
+    <br>
+    <br>
+    <br>
+              
+    <h1><%=data.results[1].title%> </h1> 
+    <h3><%=data.results[1].overview%> </h3>
+    <h3>Rating: <%=data.results[1].vote_average%> out of 10 stars</h3>
+    <br>      
+    <img src='https://image.tmdb.org/t/p/w300<%=data.results[1].poster_path%>'>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+  
+    <h1><%=data.results[2].title%> </h1> 
+    <h3><%=data.results[2].overview%> </h3>
+    <h3>Rating: <%=data.results[2].vote_average%> out of 10 stars</h3>
+    <br>
+    <img src='https://image.tmdb.org/t/p/w300<%=data.results[2].poster_path%>'>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+            
+    <h1><%=data.results[3].title%> </h1> 
+    <h3><%=data.results[3].overview%> </h3>
+    <h3>Rating: <%=data.results[3].vote_average%> out of 10 stars</h3>
+    <br>
+    <img src='https://image.tmdb.org/t/p/w300<%=data.results[3].poster_path%>'>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+            
+              
+    <h1><%=data.results[4].title%> </h1> 
+    <h3><%=data.results[4].overview%> </h3>
+    <h3>Rating: <%=data.results[4].vote_average%> out of 10 stars</h3>
+    <br>
+    <img src='https://image.tmdb.org/t/p/w300<%=data.results[4].poster_path%>'>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+            
+  
+    <h1><%=data.results[5].title%> </h1> 
+    <h3><%=data.results[5].overview%> </h3>
+    <h3>Rating: <%=data.results[5].vote_average%> out of 10 stars</h3>
+    <br>
+    <img src='https://image.tmdb.org/t/p/w300<%=data.results[5].poster_path%>'>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>     
+    
+    <h1><%=data.results[6].title%> </h1> 
+    <h3><%=data.results[6].overview%> </h3>
+    <h3>Rating: <%=data.results[6].vote_average%> out of 10 stars</h3>
+    <br>
+    <img src='https://image.tmdb.org/t/p/w300<%=data.results[6].poster_path%>'>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>        
+   
+    <h1><%=data.results[7].title%> </h1> 
+    <h3><%=data.results[7].overview%> </h3>
+    <h3>Rating: <%=data.results[7].vote_average%> out of 10 stars</h3>
+    <br>
+    <img src='https://image.tmdb.org/t/p/w300<%=data.results[7].poster_path%>'>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>  
+            
+    <h1><%=data.results[8].title%> </h1> 
+    <h3><%=data.results[8].overview%> </h3>
+    <h3>Rating: <%=data.results[8].vote_average%> out of 10 stars</h3>
+    <br>
+    <img src='https://image.tmdb.org/t/p/w300<%=data.results[8].poster_path%>'>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>       
+            
+    </body>
+    
+</html>

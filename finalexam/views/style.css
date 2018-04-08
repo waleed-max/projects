@@ -1,0 +1,28 @@
+html, body {
+    height: 100%;  
+}
+
+#Midsection {
+background: url('https://i.imgtc.com/3vn4vcd.jpg') center center no-repeat;
+height: 100%;
+color:white;
+width: 100%;
+display: flex;
+align-items: center;
+}
+
+nav.navbar.navbar-default{
+margin-bottom:  0px;    
+}
+
+#Midsection h1{
+margin-left: 80px;     
+}
+
+#Midsection a {
+margin-left: 85px;
+margin-top: 15px;
+}
+
+
+

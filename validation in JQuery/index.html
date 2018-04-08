@@ -1,0 +1,59 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+<div class="jumbotron">
+  <div class="container text-center">
+  <h1>Welcome to the Bank</h1>
+  <h3> Login to see your payroll account</h3>
+</div>
+</div>
+  <div class="container ">
+  <form>
+
+  	<label for="email">First name</label>
+      <input  class="form-control" id="name" placeholder="Enter Name">
+      <div class="dodo" id="dodo2" style="color:red">Invalide name</div>
+    
+
+          <label for="email">Email address</label>
+      <input  class="form-control" id="email" placeholder="Enter email" name="email">
+      <div class="dodo" id="dodo1" style="color:red">wrong email</div>
+    </div>
+    <div class="container ">
+      <label for="pwd">Password:</label>
+      <input type="password" class="form-control" id="pswd" placeholder="Enter password" name="pswd">
+    
+    <div class="dodo" id="dodo" style="color:red">Password too short</div>
+
+
+<label for="pwd">Re-Password:</label>
+      <input type="password" class="form-control" id="pswd2" placeholder="Re-password" name="pswd2">
+
+    <div class="dodo" id="dodo3" style="color:red">Password not maching</div>
+
+    <div class="checkbox">
+      <label><input type="checkbox" name="remember"> Remember me</label>
+    </div>
+    <button type="submit" class="btn-success btn-lg" id="submit">Submit</button>
+</div>
+  </form>
+
+
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

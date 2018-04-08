@@ -1,0 +1,71 @@
+.row  {
+
+	margin-bottom: 20px;
+}
+
+.text-center {
+
+	font-size:50px;
+	 font-weight: 600;
+}
+
+
+
+
+.jumbotron{
+
+	margin-bottom:0px;
+	 color:white;
+	  background-color:red;
+}
+
+#row1 {
+	margin:auto;
+	text-align: center;
+	width: 100%;
+}
+
+input[type="text"]  {
+
+	height: 40px;
+	font-size:20px;
+}
+
+#subit {
+	height: 40px;
+	font-size:20px;
+	font-weight: bold;
+}
+
+
+#End{
+
+	font-size: 40px;
+}
+
+#navbar  {
+font-size: 30px;
+	position: bottom;
+}
+
+.alert-link{
+
+	font-size: 20px; 
+}
+
+#main  {
+
+	height: 650px;
+}
+
+span {
+	background: red;
+	height: 40px;
+	margin-right: 20px;
+	text-align: center;
+	color: white;
+	width: 0;
+	display: inline-block;
+	transition: 0.2s linear;
+	opacity: 0;
+}

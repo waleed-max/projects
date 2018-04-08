@@ -1,0 +1,17 @@
+{
+  "name": "sample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "sample.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@types/body-parser": "^1.16.7",
+    "ajax": "0.0.4",
+    "ejs": "^2.5.7",
+    "yelp-fusion": "^1.0.3"
+  }
+}

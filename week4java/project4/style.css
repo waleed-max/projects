@@ -1,0 +1,16 @@
+.ig   {
+
+position: relative;
+width: 400px;
+height:400px;
+
+}
+
+h2 {
+	position: absolute;
+	margin-top:-900px;
+	margin-left: 500px;
+	color:white;
+	font-size: 80px;
+
+}

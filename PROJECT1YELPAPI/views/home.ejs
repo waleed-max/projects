@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Yelp API</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">  
+    <link href="style.css" rel="stylesheet" type="text/css" > 
+</head>
+<body>
+<nav class="navbar navbar-default" id="navbar">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#" id="navbar">Yelp!</a>
+    </div>
+    <ul class="nav navbar-nav">
+      
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+<center><div class="jumbotron">
+    <h1 class="text-center">Hey! Looking for some local eats?</h1>
+</div>
+    <div class="container" id="main">
+        <div class="row">
+            <h2 class="text-center text-primary">Search a city</h2>
+          
+        </div>
+   
+       <center> <form action="/results" method="get">
+        <div class="row form-group form-inline" id="row1">
+            <input type="text" name="search" id="city" class="form-control" placeholder="City Name">
+            <input type="submit" class="btn btn-primary navbar-btn" value="Submit" id="city1">
+        </div>
+        </form>
+        <br>   
+    </div>
+
+<div id="logos">
+  <a id="cube" href="https://github.com/waleedmax">
+    <img src="https://avatars2.githubusercontent.com/u/30163314?s=400&u=9b239df95bac3524269a163805568564c097a946&v=4"  id="front" alt="MDN"></a></div>
+    <div id="logos">
+    <a id="cube" href="https://github.com/Daciasil21">
+    <img src="https://avatars3.githubusercontent.com/u/22620987?s=460&v=4" id="back" alt="HTML5">
+  </a>
+</div>
+
+
+
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>  
+</body>
+</html>

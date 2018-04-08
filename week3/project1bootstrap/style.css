@@ -1,0 +1,11 @@
+.main-image{
+    background-image: url("https://github.com/ACCSoftwareBootcamp/newBandits/blob/master/week3/Projects/1.LandingPageProject/img/background.jpg?raw=true");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    padding-bottom: 400px;
+}
+
+h1  {
+  color:blue;
+}

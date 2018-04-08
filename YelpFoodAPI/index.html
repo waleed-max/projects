@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>waleed API</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	 <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.2/css/font-awesome.css">
+	 <link href='https://fonts.googleapis.com/css?family=Roboto:400,500,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<nav class="navbar navbar-default" id="navbar">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#" id="navbar">The Food</a>
+    </div>
+    <ul class="nav navbar-nav">
+      
+      <li><a href="#">HOME</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+
+
+<div class="jumbotron">
+	<h1 class="text-center">Check the where you can Eat today</h1>
+	
+
+</div>
+	<div class="container" id="main">
+		<div class="row">
+			<h2 class="text-center text-primary">Enter Resturant Name</h2>
+			<span id="error"></span>
+		</div>
+		<div class="row form-group form-inline" id="row1">
+			<input type="text" name="city" id="city" class="form-control" placeholder="City Name">
+			<button  id="submit" class="btn btn-primary">Search resturant</button>
+			<div id="demo">
+	<button type="button" onclick="loadDoc()">Request data</button>
+</div>
+		</div>
+		<br>
+
+		<div id="End"></div>
+		<center><a href="#" class="alert-link">Check a different resturant</a>.
+	</div>
+
+
+
+<nav class="navbar navbar-default " id="navbar">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      </div>
+    <ul class="nav navbar-nav">
+      
+      <li><a href="#">HOME /</a></li>
+      <li><a href="#">About /</a></li>
+      <li><a href="#">Contact </a></li>
+    </ul>
+  </div>
+</nav>
+<script>
+	function loadDoc() {
+  var xhttp = new XMLHttpRequest();
+  xhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+      document.getElementById("demo").innerHTML = this.responseText;
+    }
+  };
+  xhttp.open("GET", "url:localhost:8080", true);
+  xhttp.send();
+}
+</script>
+
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
+    <script src="food.js"></script>
+    <script src="sample.js"></script>
+    <script src="all.js"></script>
+    <script src="ajax.js"></script>
+</body>
+</html>

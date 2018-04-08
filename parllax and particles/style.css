@@ -1,0 +1,69 @@
+body {
+	margin: 0;
+	padding: 0;
+	height: 100vh;
+
+}
+
+#particles-js {
+background-image:url(https://wallpapershome.com/images/pages/pic_hs/10121.jpg);
+width: 100%;
+height: 600px;
+text-align: center;
+color:white;
+z-index: 0;
+background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+
+
+}
+
+.parallax-window {
+    min-height: 400px;
+    background: transparent;
+
+}
+
+.parallax-window2  {
+min-height: 400px;
+    background: transparent;
+
+
+}
+
+.container-fluid  {
+
+	width:100%;
+	height: 400px;
+}
+
+.fa-credit-card {
+
+	size: 300%;
+}
+
+#jumbotron  {
+   background-color:red;
+	-webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 64% 60%, 51% 100%, 36% 61%, 0% 75%);
+clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 64% 60%, 51% 100%, 36% 61%, 0% 75%);
+}
+
+#jumbotron1  {
+padding-bottom: 170px;
+  background-color:red;
+		-webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 64% 60%, 51% 100%, 36% 61%, 0% 75%);
+clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 64% 60%, 51% 100%, 36% 61%, 0% 75%);
+}
+
+h1 {
+	z-index: -1;
+}
+
+#head {
+position: absolute;
+padding-top: 200px;
+text-align: center;
+
+
+}

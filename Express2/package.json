@@ -1,0 +1,14 @@
+{
+  "name": "accbootcamp",
+  "version": "1.0.0",
+  "description": "describe why the accbootcamp the best\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[Dis the best",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "acc"
+  ],
+  "author": "waleed",
+  "license": "ISC"
+}

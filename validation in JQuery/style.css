@@ -1,0 +1,23 @@
+.dodo  {
+	
+	display: none;
+}
+
+.jumbotron {
+
+	padding-top: 300px;
+	background-image: url(https://qjubs3y9ggo1neukf3sc81r19vv-wpengine.netdna-ssl.com/wp-content/uploads/2013/12/wf_mobile_logo@2x.jpg);
+	
+    background-size:cover;
+    background-position: center;
+}
+
+
+.btn-success{
+
+	background-color: red;
+	
+clip-path: ellipse(50% 25% at 50% 52%);
+}
+
+

@@ -1,0 +1,76 @@
+h1 {
+
+font-size: 80px;
+color:red;
+margin-top: -40px;
+
+}
+
+
+
+.row  {
+
+	background-color: green;
+}
+
+.col-md-4  {
+
+background-color: blue;
+
+}
+
+.thumbnail   {
+
+background-color: yellow;
+
+}
+
+h2 {
+
+font-size: 80px;
+color:BLACK;
+font-family: 'Monoton', cursive;
+}
+
+body  {
+
+	background-image: url(http://gatherworkshops.github.io/Building-the-Web/slides/workshop/webfoundations/images/html_css_js.png);
+
+    background-color:black;
+    animation: image 15s infinite alternate;
+    animation:image 15s infinite alternate;
+    animation:image 15s infinite alternate;
+}
+
+@keyframes image{
+    0%{
+background-color:lightblue;
+}
+25%/{
+    background-color:red;
+}
+50%{
+    background-color:green;
+}
+75%{
+
+    background-color:pink;
+}
+100%{
+    background-color:lightgreen;
+    }
+  } 
+
+
+
+
+
+
+
+}
+#animate {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  background-color: red;
+}
